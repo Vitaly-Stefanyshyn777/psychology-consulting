@@ -12,58 +12,58 @@ import { useState } from "react";
 const blogPosts = [
   {
     id: 1,
-    title: "Kaygı ile Başa Çıkma Yöntemleri",
-    excerpt: "Günlük hayatta kaygı ile başa çıkmanın etkili yolları...",
-    content: `Kaygı, günlük yaşamımızın normal bir parçası olabilir, ancak kontrol edilemediğinde yaşam kalitemizi düşürebilir. İşte kaygı ile başa çıkmanın etkili yöntemleri:
+    title: "Methods for Coping with Anxiety",
+    excerpt: "Effective ways to cope with anxiety in daily life...",
+    content: `Anxiety can be a normal part of daily life, but when uncontrolled, it can reduce our quality of life. Here are effective ways to cope with anxiety:
 
-1. Nefes Egzersizleri: Derin nefes alıp verme, vücudunuzu sakinleştirmenin en etkili yollarından biridir. 4-7-8 tekniğini deneyin: 4 saniye nefes alın, 7 saniye tutun, 8 saniye verin.
+1. Breathing Exercises: Deep breathing is one of the most effective ways to calm your body. Try the 4-7-8 technique: inhale for 4 seconds, hold for 7 seconds, exhale for 8 seconds.
 
-2. Mindfulness Uygulaması: Şu ana odaklanmak, gelecek kaygılarını azaltmaya yardımcı olur. Günde 10 dakika meditasyon yapmayı deneyin.
+2. Mindfulness Practice: Focusing on the present moment helps reduce future-related worries. Try meditating for 10 minutes daily.
 
-3. Düzenli Egzersiz: Fiziksel aktivite, kaygı seviyelerini düşürmede oldukça etkilidir. Günlük yürüyüşler bile fark yaratabilir.
+3. Regular Exercise: Physical activity is very effective in lowering anxiety levels. Even daily walks can make a difference.
 
-4. Düşünce Günlüğü: Kaygı verici düşüncelerinizi yazıya dökmek, onları daha objektif değerlendirmenize yardımcı olur.`,
+4. Thought Journal: Writing down anxious thoughts can help you evaluate them more objectively.`,
     image: "/service9.jpg",
-    date: "15 Mart 2024",
-    readTime: "5 dakika",
+    date: "15 March 2024",
+    readTime: "5 minutes",
   },
   {
     id: 2,
-    title: "Sağlıklı İlişkilerin Temelleri",
-    excerpt: "Uzun süreli ve sağlıklı ilişkiler için önemli ipuçları...",
-    content: `Sağlıklı bir ilişki, iki tarafın da aktif çaba göstermesiyle mümkündür. İşte sağlıklı ilişkilerin temel taşları:
+    title: "Foundations of Healthy Relationships",
+    excerpt: "Key tips for building long-lasting and healthy relationships...",
+    content: `A healthy relationship is possible when both parties make active efforts. Here are the foundations of healthy relationships:
 
-1. Etkili İletişim: Düşüncelerinizi ve duygularınızı açıkça ifade edin. Karşı tarafı yargılamadan dinleyin.
+1. Effective Communication: Clearly express your thoughts and feelings. Listen without judgment.
 
-2. Sınırlar: Kişisel sınırlarınızı belirleyin ve karşı tarafın sınırlarına saygı gösterin.
+2. Boundaries: Set your personal boundaries and respect those of your partner.
 
-3. Güven: İlişkinin temeli güvendir. Dürüstlük ve tutarlılık güveni besler.
+3. Trust: The foundation of any relationship. Honesty and consistency build trust.
 
-4. Özerklik: İlişki içinde bireyselliğinizi koruyun. Kendi ilgi alanlarınızı ve arkadaşlıklarınızı sürdürün.
+4. Autonomy: Maintain your individuality within the relationship. Keep your hobbies and friendships.
 
-5. Empati: Karşı tarafın bakış açısını anlamaya çalışın. Empati, çatışmaları çözmede anahtar rol oynar.`,
+5. Empathy: Try to understand the other person's perspective. Empathy plays a key role in resolving conflicts.`,
     image: "/service10.png",
-    date: "10 Mart 2024",
-    readTime: "6 dakika",
+    date: "10 March 2024",
+    readTime: "6 minutes",
   },
   {
     id: 3,
-    title: "Manevi İyi Oluş ve Psikolojik Sağlık",
-    excerpt: "Manevi iyi oluşun psikolojik sağlığımıza etkileri...",
-    content: `Manevi iyi oluş, psikolojik sağlığımızın önemli bir boyutudur. Araştırmalar, manevi bağlantının ruh sağlığımız üzerindeki olumlu etkilerini gösteriyor:
+    title: "Spiritual Well-Being and Psychological Health",
+    excerpt: "The impact of spiritual well-being on psychological health...",
+    content: `Spiritual well-being is an important dimension of psychological health. Research shows positive effects of spiritual connection on mental health:
 
-1. Anlam ve Amaç: Manevi inançlar, hayatta anlam ve amaç duygusunu güçlendirir.
+1. Meaning and Purpose: Spiritual beliefs enhance the sense of meaning and purpose in life.
 
-2. Topluluk Desteği: Manevi topluluklar, sosyal destek ve aidiyet duygusu sağlar.
+2. Community Support: Spiritual communities offer social support and a sense of belonging.
 
-3. Başa Çıkma Mekanizmaları: Manevi uygulamalar, stres ve zorluklarla başa çıkmada yardımcı olur.
+3. Coping Mechanisms: Spiritual practices help in dealing with stress and challenges.
 
-4. İç Huzur: Meditasyon ve dua gibi manevi uygulamalar, iç huzuru artırır.
+4. Inner Peace: Practices like meditation and prayer increase inner peace.
 
-5. Umut ve İyimserlik: Manevi inançlar, geleceğe yönelik umut ve iyimserliği besler.`,
+5. Hope and Optimism: Spiritual beliefs nurture hope and optimism for the future.`,
     image: "/service11.jpg",
-    date: "5 Mart 2024",
-    readTime: "7 dakika",
+    date: "5 March 2024",
+    readTime: "7 minutes",
   },
 ];
 
@@ -103,8 +103,8 @@ export default function BlogPage() {
                 </h2>
               </div>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Ruh sağlığı, kişisel gelişim ve psikoloji alanında faydalı
-                bilgiler içeren yazılarımızı keşfedin.
+                Discover our articles containing useful information on mental
+                health, personal development and psychology.
               </p>
             </div>
 

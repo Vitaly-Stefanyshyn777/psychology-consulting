@@ -69,14 +69,14 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24">
           <div className=" p-8 rounded-lg ">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#445D3B] mb-12">
-              Detaylı Bilgi Almak İçin
+              To Get Detailed Information
             </h2>
             <div className="space-y-8">
               <div className="flex items-start gap-6">
                 <MapPin className="h-6 w-6 text-[#445D3B] shrink-0 mt-1 opacity-80" />
                 <p className="text-gray-600 text-lg">
-                  Mutlukent Mahallesi - Ankara İş sitesi, 2023. Sokak Numara:21
-                  Beysukent, 06810 Çankaya/Ankara
+                  Mutlukent Neighborhood - Ankara Business Site, 2023. Street
+                  Number:21 Beysukent, 06810 Çankaya/Ankara
                 </p>
               </div>
               <div className="flex items-center gap-6">
@@ -95,7 +95,7 @@ export function Contact() {
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h2 className="text-2xl md:text-3xl font-semibold text-[#445D3B] mb-12">
-              Randevu Talebi Formu
+              Appointment Request Form
             </h2>
             <Form {...form}>
               <form
@@ -107,7 +107,7 @@ export function Contact() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-gray-700">Ad Soyad*</FormLabel>
+                      <FormLabel className="text-gray-700">Ad Seed*</FormLabel>
                       <FormControl>
                         <Input
                           placeholder="Ad Soyad"
@@ -124,7 +124,9 @@ export function Contact() {
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-gray-700">Telefon*</FormLabel>
+                      <FormLabel className="text-gray-700">
+                        Telephone*
+                      </FormLabel>
                       <FormControl>
                         <Input
                           placeholder="Telefon"
@@ -141,7 +143,7 @@ export function Contact() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-gray-700">E-posta*</FormLabel>
+                      <FormLabel className="text-gray-700">E-mail*</FormLabel>
                       <FormControl>
                         <Input
                           placeholder="E-posta"
@@ -159,7 +161,7 @@ export function Contact() {
                   render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-gray-700">
-                        Danışmanlık Almak İstediğiniz Konu*
+                        Subject You Want to Get Consulting On*
                       </FormLabel>
                       <Select
                         onValueChange={field.onChange}
@@ -171,7 +173,7 @@ export function Contact() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          <SelectItem value="couple">Çift Terapisi</SelectItem>
+                          <SelectItem value="couple">Couple Therapy</SelectItem>
                           <SelectItem value="individual">
                             Bireysel Terapi
                           </SelectItem>

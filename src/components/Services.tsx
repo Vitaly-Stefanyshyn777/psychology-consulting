@@ -6,35 +6,35 @@ import { useState, useEffect } from "react";
 
 const services = [
   {
-    title: "Psikolojik ve Ruhsal Destek",
+    title: "Psychological and Emotional Support",
     image: "/service1.jpg",
   },
   {
-    title: "İnanç ve Değerler Üzerine Çalışma",
+    title: "Exploring Beliefs and Values",
     image: "/service2.jpg",
   },
   {
-    title: "Aile ve Çift Danışmanlığı",
+    title: "Family and Couples Counseling",
     image: "/service3.jpg",
   },
   {
-    title: "Yas ve Kayıp Süreçleri",
+    title: "Grief and Loss Processes",
     image: "/service8.jpg",
   },
   {
-    title: "Bağımlılıklarla Mücadele",
+    title: "Addiction Recovery Support",
     image: "/service4.jpg",
   },
   {
-    title: "Kişisel Gelişim ve Kendini Keşif",
+    title: "Personal Growth and Self-Discovery",
     image: "/service5.jpg",
   },
   {
-    title: "Kariyer ve Hayat Yolu Danışmanlığı",
+    title: "Career and Life Path Counseling",
     image: "/service6.jpg",
   },
   {
-    title: "Ebeveyn Eğitimi",
+    title: "Parent Education",
     image: "/service7.jpg",
   },
 ];

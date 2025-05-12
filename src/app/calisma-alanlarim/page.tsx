@@ -9,47 +9,46 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Psikolojik ve Ruhsal Destek",
+    title: "Psychological and Emotional Support",
     image: "/service1.jpg",
-    description: `Günlük yaşamın zorlukları, stres, kaygı ve depresyon gibi durumlarla başa çıkmada profesyonel destek sağlıyorum. Modern terapi teknikleri ve bütüncül yaklaşımla, ruhsal sağlığınızı iyileştirmeye ve yaşam kalitenizi artırmaya yardımcı oluyorum.`,
+    description: `I provide professional support for coping with everyday challenges such as stress, anxiety, and depression. With modern therapy techniques and a holistic approach, I help improve your mental health and enhance your quality of life.`,
   },
   {
-    title: "İnanç ve Değerler Üzerine Çalışma",
+    title: "Working on Beliefs and Values",
     image: "/service2.jpg",
-    description: `Kişisel değerleriniz ve inançlarınızla uyumlu bir yaşam sürdürmenize yardımcı oluyorum. Manevi yolculuğunuzda size rehberlik ederek, içsel huzur ve dengeyi bulmanıza destek oluyorum.`,
+    description: `I help you lead a life aligned with your personal values and beliefs. I guide you on your spiritual journey to find inner peace and balance.`,
   },
   {
-    title: "Aile ve Çift Danışmanlığı",
+    title: "Family and Couple Counseling",
     image: "/service3.jpg",
-    description: `Aile içi iletişim sorunları, ebeveynlik zorlukları ve çift ilişkilerindeki problemlerin çözümünde uzman desteği sağlıyorum. İlişkilerinizi güçlendirmek ve daha sağlıklı bir aile ortamı oluşturmak için birlikte çalışıyoruz.`,
+    description: `I provide expert support in resolving family communication issues, parenting challenges, and relationship problems. We work together to strengthen relationships and create a healthier family environment.`,
   },
   {
-    title: "Yas ve Kayıp Süreçleri",
+    title: "Grief and Loss Processes",
     image: "/service8.jpg",
-    description: `Sevdiklerimizi kaybetmek hayatın en zor deneyimlerinden biridir. Bu zorlu süreçte size destek oluyor, yas sürecini sağlıklı bir şekilde yönetmenize ve yeni yaşam düzenine uyum sağlamanıza yardımcı oluyorum.`,
+    description: `Losing loved ones is one of the hardest experiences in life. I support you in managing the grieving process in a healthy way and adapting to a new life structure.`,
   },
   {
-    title: "Bağımlılıklarla Mücadele",
+    title: "Fighting Addictions",
     image: "/service4.jpg",
-    description: `Çeşitli bağımlılık türleriyle mücadelede profesyonel destek sunuyorum. Bağımlılığın altında yatan nedenleri anlayarak, iyileşme sürecinde size ve ailenize rehberlik ediyorum.`,
+    description: `I offer professional support in dealing with various types of addiction. By understanding the underlying causes, I guide you and your family through the recovery process.`,
   },
   {
-    title: "Kişisel Gelişim ve Kendini Keşif",
+    title: "Personal Development and Self-Discovery",
     image: "/service5.jpg",
-    description: `Potansiyelinizi keşfetmenize ve gerçekleştirmenize yardımcı oluyorum. Öz farkındalık, özgüven geliştirme ve kişisel hedeflerinize ulaşma konularında size destek oluyorum.`,
+    description: `I help you discover and realize your potential. I support you in developing self-awareness, building self-confidence, and achieving your personal goals.`,
   },
   {
-    title: "Kariyer ve Hayat Yolu Danışmanlığı",
+    title: "Career and Life Path Counseling",
     image: "/service6.jpg",
-    description: `Kariyer seçimi ve değişimi süreçlerinde profesyonel rehberlik sağlıyorum. Yeteneklerinizi ve ilgi alanlarınızı keşfederek, sizin için en uygun kariyer yolunu belirlemenize yardımcı oluyorum.`,
+    description: `I provide professional guidance in career selection and transitions. By exploring your skills and interests, I help you determine the most suitable career path.`,
   },
   {
-    title: "Ebeveyn Eğitimi",
+    title: "Parenting Education",
     image: "/service7.jpg",
-    description: `Çocuk gelişimi ve ebeveynlik becerileri konusunda danışmanlık hizmeti veriyorum. Çocuğunuzla sağlıklı iletişim kurma ve etkili ebeveynlik stratejileri geliştirme konularında size destek oluyorum.`,
+    description: `I offer counseling on child development and parenting skills. I support you in establishing healthy communication with your child and developing effective parenting strategies.`,
   },
 ];
-
 export default function CalismaAlanlariPage() {
   return (
     <div className="flex min-h-screen w-full flex-col">
@@ -79,12 +78,12 @@ export default function CalismaAlanlariPage() {
               <div className="flex items-center justify-center gap-2">
                 <Leaf className="h-6 w-6 text-[#445D3B]" />
                 <h2 className="text-3xl font-bold text-[#445D3B]">
-                  Uzmanlık Alanları
+                  Areas of Expertise
                 </h2>
               </div>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Size en iyi şekilde hizmet verebilmek için sürekli kendimi
-                geliştiriyor ve alanımda güncel yaklaşımları takip ediyorum.
+                In order to serve you in the best way possible, I constantly
+                improve myself and follow current approaches in my field.
               </p>
             </div>
 
@@ -120,15 +119,15 @@ export default function CalismaAlanlariPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 xl:px-48 text-center">
             <div className="max-w-2xl mx-auto space-y-6">
               <h2 className="text-3xl font-bold text-white">
-                Profesyonel Destek İçin Yanınızdayım
+                I am here for you for professional support
               </h2>
               <p className="text-white/90">
-                Her birey özeldir ve kendi hikayesine sahiptir. Size özel
-                çözümler için randevu alabilirsiniz.
+                Every individual is special and has their own story. You can
+                make an appointment for solutions specific to you.
               </p>
 
               <button className="bg-white text-[#445D3B] px-8 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors">
-                <Link href="/#iletisim">Randevu Al</Link>
+                <Link href="/#iletisim">Make an Appointment</Link>
               </button>
             </div>
           </div>

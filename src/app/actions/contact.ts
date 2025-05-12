@@ -36,12 +36,12 @@ export async function submitContactForm(formData: FormData) {
 
   try {
     await transporter.sendMail(mailOptions);
-    return { success: true, message: "Form başarıyla gönderildi!" };
+    return { success: true, message: "Form submitted successfully!" };
   } catch (error) {
-    console.error("Gönderim hatası email:", error);
+    console.error("Email submission error:", error);
     return {
       success: false,
-      message: "Form gönderilemedi. Lütfen tekrar deneyin.",
+      message: "Form submission failed. Please try again.",
     };
   }
 }

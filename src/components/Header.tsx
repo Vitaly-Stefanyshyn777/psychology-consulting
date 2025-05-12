@@ -43,7 +43,7 @@ export default function Header() {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>E-Posta: info@sedefyildiz.com</span>
+              <span>E-Mail: info@sedefyildiz.com</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -78,19 +78,19 @@ export default function Header() {
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
               href="/"
             >
-              Anasayfa
+              Home Page
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
               href="/hakkimizda"
             >
-              Hakkımızda
+              About Us
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
               href="/calisma-alanlarim"
             >
-              Çalışma Alanlarım
+              My Working Areas
             </Link>
           </nav>
 
@@ -114,7 +114,7 @@ export default function Header() {
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
               href="/tests"
             >
-              Uyguladığım Testler
+              Tests I Applied
             </Link>
             <Link
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
@@ -126,7 +126,7 @@ export default function Header() {
               className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
               href="#iletisim"
             >
-              İletişim
+              Communication
             </Link>
           </nav>
         </div>
@@ -143,25 +143,25 @@ export default function Header() {
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
             href="/"
           >
-            Anasayfa
+            Home Page
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
             href="/hakkimizda"
           >
-            Hakkımızda
+            About Us
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
             href="/calisma-alanlarim"
           >
-            Çalışma Alanlarım
+            My Working Areas
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
             href="/tests"
           >
-            Uyguladığım Testler
+            Tests I Applied
           </Link>
           <Link
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
@@ -173,7 +173,7 @@ export default function Header() {
             className="text-base font-bold text-gray-800 transition-colors hover:text-primary"
             href="#iletisim"
           >
-            İletişim
+            Communication
           </Link>
         </nav>
       </div>

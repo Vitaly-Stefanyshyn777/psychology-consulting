@@ -22,38 +22,40 @@ export default function About() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter text-[#445D3B]">
-                  Uzman Aile Danışmanı
+                  Expert Family Counselor
                 </h1>
                 <Leaf className="h-6 w-6 text-[#445D3B]" />
               </div>
               <h2 className="text-xl sm:text-2xl font-semibold text-center lg:text-left">
-                Sedef Yıldız
+                Pearl Star
               </h2>
             </div>
             <div className="text-muted-foreground italic text-sm sm:text-base">
               <p>
-                Çankaya Üniversitesi Psikoloji Bölümünden mezun oldum. Mezun
-                olduktan sonra Ankara Üniversitesi Sağlık Bilimleri Fakültesi
-                Disiplinlerarası Aile Danışmanlığı Yüksek Lisans programını
-                tamamlayarak, aile danışmanlığı uzmanlığımı aldım.
+                I graduated from Çankaya University, Department of Psychology.
+                After graduating, I completed the Ankara University Faculty of
+                Health Sciences, Interdisciplinary Family Counseling Master's
+                Program and became a family counseling specialist.
               </p>
               <p className="mt-4">
-                Zorunlu staj dönemimde Borusan Makine ve Güç Sistemleri
-                şirketinin Borusan Cat Öğrenim Gelişim ve Eğitim departmanında;
-                endüstriyel psikoloji alanında zorunlu stajımı tamamladım.
-                Zorunlu stajımın dışında lisans eğitimimin son 2 yılı stajer
-                psikolog olarak Özel Eğitimde çalıştım....
+                During my compulsory internship period, I completed my
+                compulsory internship in the field of industrial psychology at
+                Borusan Cat Learning Development and Education department of
+                Borusan Machinery and Power Systems company. In addition to my
+                compulsory internship, I worked as an intern psychologist in
+                Special Education for the last 2 years of my undergraduate
+                education....
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link href="/hakkimizda" passHref>
                 <Button className="w-full sm:w-auto bg-[#445D3B] hover:bg-[#445D3B]/90 text-white">
-                  Devamını Oku
+                  Read more
                 </Button>
               </Link>
               <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                 <p className="font-medium text-center sm:text-left">
-                  Bilgi İçin
+                  Information
                 </p>
                 <Link
                   href="tel:+90 (532) 162 48 92"

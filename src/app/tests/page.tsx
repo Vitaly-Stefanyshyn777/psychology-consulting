@@ -8,68 +8,69 @@ import TawkMessenger from "@/components/TawkMessenger";
 
 const tests = [
   {
-    category: "Kişilik Değerlendirme Testleri",
+    category: "Personality Assessment Tests",
     items: [
       {
-        title: "MMPI (Minnesota Çok Yönlü Kişilik Envanteri)",
+        title: "MMPI (Minnesota Multiphasic Personality Inventory)",
         description:
-          "Kişilik özelliklerini ve olası psikolojik sorunları değerlendirmeye yardımcı olan kapsamlı bir kişilik değerlendirme aracı.",
-        duration: "60-90 dakika",
+          "A comprehensive personality assessment tool that helps evaluate personality traits and possible psychological issues.",
+        duration: "60–90 minutes",
       },
       {
-        title: "16PF (On Altı Kişilik Faktörü Anketi)",
+        title: "16PF (Sixteen Personality Factor Questionnaire)",
         description:
-          "Davranış ve kişisel gelişimi etkileyen temel kişilik faktörlerini ölçer.",
-        duration: "45-60 dakika",
+          "Measures fundamental personality factors that affect behavior and personal development.",
+        duration: "45–60 minutes",
       },
     ],
   },
   {
-    category: "Manevi ve Dini Değerlendirme",
+    category: "Spiritual and Religious Assessment",
     items: [
       {
-        title: "Manevi İyi Oluş Ölçeği (SWBS)",
+        title: "Spiritual Well-Being Scale (SWBS)",
         description:
-          "Dini ve varoluşsal iyi oluşu değerlendirir, manevi ihtiyaçları ve kaynakları anlamaya yardımcı olur.",
-        duration: "15-20 dakika",
+          "Evaluates religious and existential well-being to understand spiritual needs and resources.",
+        duration: "15–20 minutes",
       },
       {
-        title: "Dini Başa Çıkma Ölçeği (RCOPE)",
+        title: "Religious Coping Scale (RCOPE)",
         description:
-          "Bireylerin önemli yaşam stres faktörleri ve zorluklarla başa çıkmada dini nasıl kullandıklarını değerlendirir.",
-        duration: "20-30 dakika",
+          "Assesses how individuals use religion to cope with major life stressors and challenges.",
+        duration: "20–30 minutes",
       },
     ],
   },
   {
-    category: "Aile ve İlişki Değerlendirmesi",
+    category: "Family and Relationship Assessment",
     items: [
       {
-        title: "Aile Değerlendirme Ölçeği (FAD)",
+        title: "Family Assessment Device (FAD)",
         description:
-          "İletişim ve problem çözme dahil olmak üzere çeşitli boyutlarda aile işlevselliğini değerlendirir.",
-        duration: "30-40 dakika",
+          "Assesses family functioning across various dimensions including communication and problem-solving.",
+        duration: "30–40 minutes",
       },
       {
-        title: "Çift Uyum Ölçeği (DAS)",
-        description: "Çiftlerde ilişki memnuniyetini ve uyumunu ölçer.",
-        duration: "15-20 dakika",
+        title: "Dyadic Adjustment Scale (DAS)",
+        description:
+          "Measures satisfaction and harmony in couple relationships.",
+        duration: "15–20 minutes",
       },
     ],
   },
   {
-    category: "Kaygı ve Depresyon Ölçekleri",
+    category: "Anxiety and Depression Scales",
     items: [
       {
-        title: "Beck Depresyon Envanteri (BDI)",
+        title: "Beck Depression Inventory (BDI)",
         description:
-          "Ergen ve yetişkinlerde depresyon belirtilerinin şiddetini ölçer.",
-        duration: "10-15 dakika",
+          "Measures the severity of depressive symptoms in adolescents and adults.",
+        duration: "10–15 minutes",
       },
       {
-        title: "Hamilton Anksiyete Değerlendirme Ölçeği (HAM-A)",
-        description: "Kaygı belirtilerinin şiddetini değerlendirir.",
-        duration: "10-15 dakika",
+        title: "Hamilton Anxiety Rating Scale (HAM-A)",
+        description: "Evaluates the severity of anxiety symptoms.",
+        duration: "10–15 minutes",
       },
     ],
   },
@@ -85,14 +86,14 @@ export default function TestsPage() {
         <section className="relative h-[400px] overflow-hidden">
           <Image
             src="/hero1.jpg"
-            alt="Psikolojik Testler"
+            alt="Psychological Tests"
             fill
             className="object-cover brightness-50"
             priority
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
-              Uygulanan Testler
+              Administered Tests
             </h1>
           </div>
         </section>
@@ -103,13 +104,12 @@ export default function TestsPage() {
               <div className="flex items-center justify-center gap-2">
                 <FileText className="h-6 w-6 text-[#445D3B]" />
                 <h2 className="text-3xl font-bold text-[#445D3B]">
-                  Profesyonel Değerlendirme Araçları
+                  Professional Assessment Tools
                 </h2>
               </div>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Danışanlarımıza doğru ve kapsamlı değerlendirmeler sunmak için
-                bilimsel olarak geçerliliği kanıtlanmış değerlendirme araçları
-                kullanıyoruz.
+                We use scientifically validated assessment tools to provide
+                accurate and comprehensive evaluations for our clients.
               </p>
             </div>
 
@@ -133,7 +133,7 @@ export default function TestsPage() {
                             </h4>
                             <p className="text-gray-600">{test.description}</p>
                             <p className="text-sm text-[#445D3B]">
-                              Süre: {test.duration}
+                              Duration: {test.duration}
                             </p>
                           </div>
                         </div>
@@ -151,14 +151,14 @@ export default function TestsPage() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <Leaf className="h-8 w-8 text-[#445D3B] mx-auto" />
               <h2 className="text-2xl font-semibold text-[#445D3B]">
-                Bu Testleri Neden Kullanıyoruz?
+                Why Do We Use These Tests?
               </h2>
               <p className="text-gray-600">
-                Değerlendirme araçlarımız, psikolojik, manevi ve duygusal
-                durumunuz hakkında kapsamlı bilgiler sağlamak için özenle
-                seçilmiştir. Bu testler, kişiselleştirilmiş tedavi planları
-                geliştirmemize ve birlikte çalışmamız boyunca ilerlemenizi takip
-                etmemize yardımcı olur.
+                Our assessment tools are carefully selected to provide
+                comprehensive insights into your psychological, spiritual, and
+                emotional state. These tests help us develop personalized
+                treatment plans and track your progress throughout our work
+                together.
               </p>
             </div>
           </div>

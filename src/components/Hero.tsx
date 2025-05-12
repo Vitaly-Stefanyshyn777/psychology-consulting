@@ -35,7 +35,7 @@ export function Hero() {
             }`}
           >
             <h2 className="text-2xl md:text-3xl font-serif italic text-gray-100">
-              Psikolog & Aile Danışmanı
+              Psychologist & Family Counselor
             </h2>
           </div>
           <div
@@ -46,7 +46,7 @@ export function Hero() {
             }`}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
-              Sedef Yıldız
+              Pearl Star
             </h1>
           </div>
           <div
@@ -61,7 +61,7 @@ export function Hero() {
                 size="lg"
                 className="bg-white text-gray-900 hover:bg-gray-200 mt-4 px-5 py-5 text-base font-medium transform transition-transform duration-200 hover:scale-105"
               >
-                Randevu Al
+                Make an Appointment
               </Button>
             </Link>
           </div>

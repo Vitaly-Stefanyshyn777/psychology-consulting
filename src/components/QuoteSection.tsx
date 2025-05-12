@@ -9,12 +9,12 @@ export default function Quote() {
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 xl:px-48">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight  animate-pulse">
-            Manevi danışmanlık, ruhu iyileştiren bir rehberdir; içsel huzura
-            giden yolu aydınlatır.
+            Spiritual counseling is a guide that heals the soul; it illuminates
+            the path to inner peace.
           </h2>
 
           <p className="text-white/90 text-lg md:text-xl italic">
-            Uzm. Aile Danışmanı Sedef YILDIZ
+            Specialist Family Counselor Sedef YILDIZ
           </p>
 
           <div className="pt-4">
@@ -23,7 +23,7 @@ export default function Quote() {
                 className="bg-white text-[#445D3B] hover:bg-white/90 text-lg px-8 py-6"
                 size="lg"
               >
-                Bize Ulaşın
+                Contact us
               </Button>
             </Link>
           </div>

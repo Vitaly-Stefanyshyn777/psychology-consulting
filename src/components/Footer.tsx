@@ -22,14 +22,14 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <h3 className="text-lg font-semibold text-[#445D3B] mb-6">
-              İletişim Bilgilerimiz
+              Our Contact Information
             </h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#445D3B] mt-1" />
                 <p className="text-sm">
-                  Mutlukent Mahallesi - Ankara 85 sitesi, 2023. Sokak Numara:21
-                  Beysukent, 06810 Çankaya/Ankara
+                  Mutlukent Neighborhood - Ankara 85 site, 2023. Street
+                  Number:21 Beysukent, 06810 Cankaya/Ankara
                 </p>
               </div>
               <div className="flex items-center gap-3">
@@ -52,52 +52,52 @@ export function Footer() {
             </h3>
             <div className="space-y-3">
               <Link href="/" className="block text-sm hover:text-[#445D3B]">
-                Anasayfa
+                Home Page
               </Link>
               <Link
                 href="/hakkimizda"
                 className="block text-sm hover:text-[#445D3B]"
               >
-                Hakkımızda
+                About Us
               </Link>
               <Link
                 href="/calisma-alanlarim"
                 className="block text-sm hover:text-[#445D3B]"
               >
-                Çalışma Alanlarım
+                My Working Areas
               </Link>
               <Link
                 href="/tests"
                 className="block text-sm hover:text-[#445D3B]"
               >
-                Uyguladığım Testler
+                Tests I Applied
               </Link>
 
               <Link
                 href="/iletisim"
                 className="block text-sm hover:text-[#445D3B]"
               >
-                İletişim
+                Communication
               </Link>
             </div>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold text-[#445D3B] mb-6">
-              Çalışma Saatlerimiz
+              Our Working Hours
             </h3>
             <div className="space-y-3">
               <div className="flex justify-between text-sm">
-                <span>Pzt-Cum:</span>
+                <span>Mon-Fri:</span>
                 <span>09:00 - 19:00</span>
               </div>
               <div className="flex justify-between text-sm">
-                <span>Cumartesi:</span>
+                <span>Saturday:</span>
                 <span>09:00 - 15:00</span>
               </div>
               <div className="flex justify-between text-sm">
-                <span>Pazar:</span>
-                <span>Kapalı</span>
+                <span>Sunday:</span>
+                <span>Closed</span>
               </div>
             </div>
           </div>
